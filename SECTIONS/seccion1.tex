@@ -1,0 +1,103 @@
+%------------------------------------------------
+\section{Conceptos Previos} 
+
+%------------------------------------------------
+\begin{frame}
+\frametitle{Lógica matematica}
+
+\textbf{Lógica de primer orden}: es un sistema formal diseñado para estudiar la inferencia en los lenguajes de primer orden. 
+
+\textbf{Lenguaje de primer orden}: es un lenguaje formal (español), cuyos símbolos primitivos y reglas para unir esos símbolos están especificados con conectores lógicos, cuantificadores y funciones proposicionales. %\\~
+
+\pause
+\begin{itemize}
+ \item Axioma: enunciado fundamental
+ \item Concepto primitivo: concepto no definido
+ \item Demostración: secuencia finita de enunciados que conducen de un conjunto de premisas a una sentencia dada
+ \item Teorema: proposición derivada como la conclusión de una demostración
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Ejemplos}
+
+ En la teoría de conjuntos ZF/ZFC:
+\begin{itemize}
+ \item Axioma: existe el conjunto vacío 
+ \item Concepto primitivo: conjunto 
+ \item Teorema: no existe el conjunto que es elemento de sí mismo 
+\end{itemize}
+
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{Ejemplo de demostración}
+
+En la aritmética de Peano:
+\begin{itemize}
+ \item {\color{red} \textbf{Teorema}: Para todo $m$ y $n$ enteros positivos, si $m$ y $n$ son pares, entonces $m+n$ es par.}
+ \item \textbf{Demostración}: Supongamos que $m$ y $n$ son enteros pares arbitrariamente elegidos. [Debe mostrarse que $m+n$ es par.]\\
+  \begin{enumerate}[1.]
+  	\item $m = 2r, n = 2s$ para algunos enteros $r$ y $s$ (por definición de par)
+  	\item $m + n = 2r + 2s$ (por sustitución)
+  	\item $m + n = 2(r + s)$ (mediante la factorización de $2$)
+  	\item $r + s$ es un entero (pues es la suma de dos enteros)
+  	\item $m + n$ es par (por definición de par)
+  \end{enumerate}
+\end{itemize}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{Teoría}
+
+Sistema hipotético deductivo formado por un conjunto de proposiciones dentro de un lenguaje formal.\\
+
+\pause
+\begin{itemize}
+ \item Consistente: si para cada par de fórmulas $(\varphi,\neg \varphi)$ solo una pertenece a la teoría
+ \item Completa: si para cada par de fórmulas $(\varphi,\neg \varphi)$ al menos una pertenece a la teoría
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Teoría}
+			
+\begin{center}
+	¡¡En matemáticas todas las teorías son consistentes!!\\
+	\dots\\
+	Pero no todas son completas
+\end{center}
+
+\pause
+Ejemplos:
+\begin{itemize}
+	\item La teoría de conjuntos ZFC 
+	\item La teoría de la selección natural (no es teoría lógica, es científica)
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Paradoja}
+
+Son argumentos donde
+\begin{itemize}
+ \item hay premisas no controvertidas y verdaderas.
+ \item emplea un procedimiento no controversial.
+ \item obtiene una conclusión
+ \pause
+ \begin{itemize}
+  \item contradictoria
+  \item absurda, inapropiada o inaceptable
+ \end{itemize}
+\end{itemize}
+
+\vfill
+
+\pause
+Ejemplo: \href{https://es.wikipedia.org/wiki/Paradoja_de_Banach-Tarski}{La paradoja de Banach-Tarski}
+\end{frame}

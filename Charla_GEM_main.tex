@@ -1,0 +1,133 @@
+%\documentclass[handout,12pt]{beamer} %sin pause
+\documentclass[12pt]{beamer} %con pause
+
+\mode<presentation>{
+% The Beamer class comes with a number of default slide themes
+% which change the colors and layouts of slides. Below this is a list
+% of all the themes, uncomment each in turn to see what they look like.
+
+%\usetheme{Berlin}
+%\usetheme{Boadilla}
+%\usetheme{CambridgeUS}
+\usetheme{Copenhagen}
+%\usetheme{Goettingen}
+%\usetheme{Hannover}
+%\usetheme{Ilmenau}
+%\usetheme{JuanLesPins}
+%\usetheme{Luebeck}
+%\usetheme{Madrid}
+%\usetheme{Malmoe}
+%\usetheme{Marburg}
+%\usetheme{Montpellier}
+%\usetheme{PaloAlto}
+%\usetheme{Pittsburgh}
+%\usetheme{Rochester}
+%\usetheme{Singapore}
+%\usetheme{Szeged}
+%\usetheme{Warsaw}
+
+% As well as themes, the Beamer class has a number of color themes
+% for any slide theme. Uncomment each of these in turn to see how it
+% changes the colors of your current slide theme.
+
+%\usecolortheme{beaver}
+\usecolortheme{crane}
+%\usecolortheme{dolphin}
+%%\usecolortheme{lily}
+%\usecolortheme{orchid}
+%\usecolortheme{rose}
+%\usecolortheme{seagull}
+%\usecolortheme{seahorse}
+%\usecolortheme{whale}
+%%\usecolortheme{wolverine}
+}
+
+\usepackage{graphicx} % Allows including images
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+
+%---------------------------------------------------------------------------------------
+%Mi configuración
+
+\usepackage[utf8]{inputenc}
+\usepackage[spanish,english]{babel}	%% manejos de idiomas
+\usepackage[T1]{fontenc}
+\usepackage{enumerate} %para listar y enumerar
+
+\usepackage{ragged2e} %justificado y otras alineaciones
+%%%\apptocmd{\frame}{}{\justifying}{} % Añade argumento opcional del frame
+
+\usepackage{amsmath} %paquete matematico
+\usepackage{amsthm} %para poner demostración a un teorema
+
+\usepackage{chronosys} % linea de tiempo
+
+\uselanguage{spanish}
+\languagepath{spanish}
+\deftranslation[to=spanish]{Theorem}{Teorema}
+\newtheorem{proposition}[theorem]{Proposición}
+
+%----------------------------------------------------------------------------------------
+%Propiedades del documento
+
+\title[Elección y matemática]{La teoría de conjuntos ZF y el axioma de elección} 
+%El título corto entre corchetes aparece en la parte inferior, 
+%el título entre llaves solo aparece en la página de título
+\author[Daniel Camarena]{Daniel Camarena Pérez} % Su nombre
+\institute[UNI]{Universidad Nacional de Ingeniería} 
+%Comportamiento similar al título
+%\institute[UNI]{ 
+%Universidad Nacional de Ingeniería \\ % Su institución para la página de título
+%\medskip % espacio vertical medio
+%\textit{vcamarenap@uni.pe} % su correo electrónico
+%}
+\logo{GEM}
+\date{\today} % fecha, configure la traducción
+
+%Mostrar contenido cada vez que inicia una nueva sección
+\AtBeginSection[]
+{
+	\begin{frame}<beamer>{Contenido}
+		\tableofcontents[currentsection,currentsubsection]
+	\end{frame}
+}
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%Inicio
+
+\begin{frame}[plain] %plain limpia cabecera y pie de página
+\titlepage 
+% Imprime la página de título (title page) como el primer slide
+\end{frame}
+
+\begin{frame}[allowframebreaks]
+\frametitle{Contenido} % Título del frame (slide)
+\tableofcontents 
+% Si usa los comandos \section{} y \subsection{}, automáticamente se cargan
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+%Desarrollo
+
+\input{SECTIONS/seccion1.tex}
+\input{SECTIONS/seccion2.tex}
+\input{SECTIONS/seccion3.tex}
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%Cierre
+
+\begin{frame}[allowframebreaks]
+\frametitle{Referencias}
+\bibliographystyle{plain}
+\bibliography{bibliografia}
+\end{frame}
+
+\begin{frame}
+\centering {\bfseries\Huge ¡Muchas Gracias!}
+\end{frame}
+%----------------------------------------------------------------------------------------
+
+\end{document}

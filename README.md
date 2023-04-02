@@ -50,9 +50,9 @@ PlantillaBeamer/
 
 La compilación se realiza con el fichero control `Charla_GEM_main.tex`.
 
-La clase de documento LaTeX (documentclass) es una modificación de la clase beamer.
+La clase de documento LaTeX (documentclass) es la clase beamer.
 
-El resultado de la compilación es un archivo PDF llamado [`Charla_GEM_main.pdf`](https://github.com/DanielCamarena/PlantillaCharla/blob/main/Charla_GEM_main.pdf).
+El resultado de la compilación es un archivo PDF llamado [`Charla_GEM_main.pdf`](https://github.com/DanielCamarena/PlantillaBeamer/blob/main/Charla_GEM_main.pdf).
 
 
 ## Recomendaciones

@@ -28,8 +28,6 @@ PlantillaBeamer/
 ├── Charla_GEM_main.synctex.gz
 ├── Charla_GEM_main.tex
 ├── Charla_GEM_main.toc
-├── choice_biblio.bib~
-├── gem_3.bbl~
 ├── IMGS
 │   ├── barbero.jpg
 │   ├── cantor.jpg

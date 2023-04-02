@@ -17,17 +17,8 @@ La estructura de ficheros y directorios es la siguiente:
 ```
 PlantillaBeamer/
 ├── bibliografia.bib
-├── Charla_GEM_main.aux
-├── Charla_GEM_main.bbl
-├── Charla_GEM_main.blg
-├── Charla_GEM_main.log
-├── Charla_GEM_main.nav
-├── Charla_GEM_main.out
 ├── Charla_GEM_main.pdf
-├── Charla_GEM_main.snm
-├── Charla_GEM_main.synctex.gz
 ├── Charla_GEM_main.tex
-├── Charla_GEM_main.toc
 ├── IMGS
 │   ├── barbero.jpg
 │   ├── cantor.jpg

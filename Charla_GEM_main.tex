@@ -1,6 +1,6 @@
-\documentclass[12pt]{beamer} %con pause
+\documentclass[12pt]{beamer} %con pause/animaciones
 %\documentclass[12pt,handout]{beamer} %sin pause
-%\documentclass[12pt,aspect=16:9]{beamer} %con pause, aspecto panorámico
+%\documentclass[12pt,aspectratio=169]{beamer} %con pause, aspecto panorámico
 
 \mode<presentation>{
 
@@ -52,6 +52,7 @@
 %%%\apptocmd{\frame}{}{\justifying}{} % Añade argumento opcional del frame
 
 \usepackage{amsmath} %paquete matematico
+\usepackage{amssymb} %paquete de símbolos
 \usepackage{amsthm} %para poner demostración a un teorema
 
 \usepackage{graphicx} % paquete gráfico
@@ -64,7 +65,7 @@
 \uselanguage{spanish}
 \languagepath{spanish}
 \deftranslation[to=spanish]{Theorem}{Teorema}
-\newtheorem{proposition}[theorem]{Proposición}
+%\newtheorem{proposition}[theorem]{Proposición}
 
 %----------------------------------------------------------------------------------------
 %Propiedades del documento

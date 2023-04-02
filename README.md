@@ -15,53 +15,46 @@ Además, hay gráficos opcionales que se generan con Tikz.
 La estructura de ficheros y directorios es la siguiente:
 
 ```
-PlantillaTesis/
-├── 0_0_PREAMBULO
-│   └── Preambulo.tex
-├── 1_1_PROTOCOLAR
-│   ├── Agradecimientos.tex
-│   ├── Caratula.tex
-│   ├── Dedicatoria.tex
-│   └── Licencia.tex
-│   └── Simbolos.tex
-├── 2_CAPITULO1
-│   ├── Capitulo1.tex
-│   ├── Capitulo2.tex
-│   ├── Capitulo3.tex
-│   └── Secciones
-│   ├── Conclusiones.tex
-│   └── Recomendaciones.tex
-├── 3_2_BIBLIOGRAFIA
-│   ├── Bibliografia.tex
-│   └── library.bib
-├── 3_3_ANEXOS
-│   ├── Anexos.tex
-├── E_IMAGENES
-│   ├── 1_Protocolar
-│   │   └── UNI_LOGO1.pdf
-│   ├── 2_Capitulo2
-│   ├── 2_Capitulo3
-│   ├── 2_Capitulo4
-│   └── 3_Anexos
-├── T_TABLAS
-│   └── 2_Capitulo3
-├── .gitignore
-├── LICENSE
-├── README.md
-├── TESIS_UNI_main.pdf
-└── TESIS_UNI_main.tex
+PlantillaBeamer/
+├── bibliografia.bib
+├── Charla_GEM_main.aux
+├── Charla_GEM_main.bbl
+├── Charla_GEM_main.blg
+├── Charla_GEM_main.log
+├── Charla_GEM_main.nav
+├── Charla_GEM_main.out
+├── Charla_GEM_main.pdf
+├── Charla_GEM_main.snm
+├── Charla_GEM_main.synctex.gz
+├── Charla_GEM_main.tex
+├── Charla_GEM_main.toc
+├── choice_biblio.bib~
+├── gem_3.bbl~
+├── IMGS
+│   ├── barbero.jpg
+│   ├── cantor.jpg
+│   ├── choice.png
+│   ├── cohen.jpg
+│   ├── godel.png
+│   ├── hilbert-hotel-L.jpg
+│   ├── hilbert-hotel-R.jpg
+│   ├── rubik.jpg
+│   ├── tarski.jpg
+│   └── zermelo.jpg
+└── SECTIONS
+    ├── seccion1.tex
+    ├── seccion2.tex
+    └── seccion3.tex
 ```
 
 
 ## Uso
 
-La compilación se realiza con el fichero control `TESIS_UNI_main.tex`, previamente debe configurar en su aplicación de edición la compilación con el motor XeLaTeX (el motor PdfLaTeX da error).
+La compilación se realiza con el fichero control `Charla_GEM_main.tex`.
 
-La clase de documento LaTeX (documentclass) es una modificación de la clase book, esto corresponde al archivo `TesisUNI.cls` (evite editar dicho archivo).
+La clase de documento LaTeX (documentclass) es una modificación de la clase beamer.
 
-El esquema de carátula de la tesis queda definida en el fichero `1_0_CARATULA/Caratula.tex` (edite lo menos posible dicho archivo), y puede modificarse los datos de la carátula desde el preámbulo en el fichero `0_0_PREAMBULO/Preambulo.tex`.
-
-El resultado de la compilación es un archivo PDF llamado [`TESIS_UNI_main.pdf`](https://github.com/DanielCamarena/PlantillaTesis/blob/main/TESIS_UNI_main.pdf).
+El resultado de la compilación es un archivo PDF llamado [`Charla_GEM_main.pdf`](https://github.com/DanielCamarena/PlantillaCharla/blob/main/Charla_GEM_main.pdf).
 
 
 ## Recomendaciones

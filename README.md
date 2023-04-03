@@ -9,8 +9,6 @@ El presente documento fue usado en una charla sobre teoría de conjuntos para el
 
 Se requiere de una distribución de LaTeX (se recomienda [MikTeX](https://miktex.org/)), el software de gestión de referencias BibTeX y una aplicación para edición (se recomienda [TeXstudio](https://www.texstudio.org/)). 
 
-Además, hay gráficos opcionales que se generan con Tikz.
-
 
 ## Estructura
 

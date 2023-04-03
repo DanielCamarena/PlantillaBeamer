@@ -2,6 +2,8 @@
 
 Este proyecto LaTeX puede tomarse como plantilla de *presentación* para conferencias, congresos, seminarios, entre otros.
 
+El presente documento fue usado en una charla sobre teoría de conjuntos para el [GEM (UNI)](facebook.com/gemfcuni).
+
 
 ## Dependencias
 
